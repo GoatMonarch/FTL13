@@ -2,6 +2,9 @@
 "aa" = (
 /turf/open/space,
 /area/space)
+"al" = (
+/turf/open/floor/plasteel/delivery,
+/area/no_entry/delivery)
 "ao" = (
 /turf/open/floor/plasteel/warning{
 	dir = 1
@@ -12,16 +15,167 @@
 	dir = 4
 	},
 /area/no_entry/delivery)
-"aF" = (
-/obj/structure/toilet{
-	pixel_y = 8
+"aA" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/genericbush,
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"aS" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/pointybush,
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"aU" = (
+/obj/machinery/door/airlock/glass_external{
+	name = "External Access";
+	req_one_access_txt = "13;48"
 	},
-/turf/open/floor/plasteel,
-/area/space)
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "bu" = (
 /turf/closed/wall/r_wall,
 /area/no_entry/delivery)
-"bQ" = (
+"bz" = (
+/obj/machinery/door/window/eastright{
+	name = "Cell Door";
+	req_access_txt = "2"
+	},
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"bH" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"bM" = (
+/turf/open/floor/plasteel/warnwhite/corner,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"bN" = (
+/obj/machinery/conveyor{
+	id = "StationSell";
+	tag = "StationSell"
+	},
+/turf/open/floor/plasteel/warning/side,
+/area/no_entry/delivery)
+"bW" = (
+/obj/structure/closet{
+	name = "Evidence Closet"
+	},
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"cj" = (
+/obj/effect/landmark/station,
+/turf/open/floor/plasteel,
+/area/no_entry/delivery)
+"cl" = (
+/obj/structure/sink{
+	dir = 8;
+	icon_state = "sink";
+	pixel_x = -12
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"cF" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor/auto,
+/turf/open/floor/plasteel/warning/end{
+	dir = 1
+	},
+/area/no_entry/delivery)
+"cI" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"cS" = (
+/obj/structure/closet/radiation,
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"di" = (
+/obj/machinery/door/airlock{
+	name = "Canteen Service Area";
+	req_access_txt = "28"
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"du" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/eastright{
+	dir = 1;
+	name = "Brig Desk";
+	req_access_txt = "2"
+	},
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"eW" = (
+/obj/machinery/conveyor/auto{
+	dir = 1
+	},
+/obj/effect/landmark{
+	name = "ftltrade_buy"
+	},
+/turf/open/floor/plating,
+/area/no_entry/delivery)
+"fd" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"fe" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	crit_fail = 0;
@@ -30,15 +184,181 @@
 	icon_state = "4-8"
 	},
 /turf/open/space,
-/area/space)
-"cd" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	crit_fail = 0;
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"fr" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ge" = (
+/obj/machinery/vending/snack,
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"gO" = (
+/obj/machinery/chem_dispenser/drinks/beer,
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"gQ" = (
+/obj/machinery/vending/cigarette,
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"gX" = (
+/obj/structure/closet/secure_closet/brig{
+	id = "Cell 1";
+	name = "Cell 1 Locker"
 	},
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"gY" = (
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"hj" = (
+/obj/machinery/door/airlock/security{
+	id_tag = "outerbrig";
+	name = "Brig Desk";
+	req_access = null;
+	req_access_txt = "63"
+	},
+/turf/open/floor/plasteel/darkred,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"hv" = (
+/obj/structure/table/glass,
+/obj/item/weapon/storage/firstaid/fire{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/weapon/storage/firstaid/fire,
+/obj/item/weapon/storage/firstaid/regular{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"hx" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"hJ" = (
+/obj/structure/chair{
+	dir = 2
+	},
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"hK" = (
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"it" = (
+/obj/machinery/vending/dinnerware,
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"iG" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ja" = (
+/obj/structure/table/glass,
+/obj/item/device/slime_scanner,
+/turf/open/floor/plasteel/warnwhite{
+	dir = 1
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jb" = (
+/turf/open/floor/plasteel/warnwhite,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jg" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jp" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jz" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jD" = (
+/turf/open/floor/plasteel,
+/area/no_entry/delivery)
+"jL" = (
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jO" = (
+/obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
@@ -51,260 +371,428 @@
 	icon_state = "1-8"
 	},
 /turf/open/space,
-/area/space)
-"cj" = (
-/obj/effect/landmark/station,
-/turf/open/floor/plasteel,
-/area/no_entry/delivery)
-"cv" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/grassybush,
-/turf/open/floor/grass,
-/area/space)
-"cG" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/wood,
-/area/space)
-"dc" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"dr" = (
-/obj/structure/chair/comfy{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/space)
-"dR" = (
-/obj/machinery/vending/dinnerware,
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"em" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plasteel/black,
-/area/space)
-"er" = (
-/obj/machinery/door/airlock{
-	name = "Shower"
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"eQ" = (
-/obj/structure/chair/comfy,
-/turf/open/floor/wood,
-/area/space)
-"eS" = (
-/obj/structure/chair/office/dark,
-/turf/open/floor/plasteel/black,
-/area/space)
-"eW" = (
-/obj/machinery/conveyor/auto{
-	dir = 1
-	},
-/obj/effect/landmark{
-	name = "ftltrade_buy"
-	},
-/turf/open/floor/plating,
-/area/no_entry/delivery)
-"ff" = (
-/turf/open/floor/plasteel/black,
-/area/space)
-"fv" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space,
-/area/space)
-"fC" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Maintenance";
-	req_access_txt = "0";
-	req_one_access_txt = "0"
-	},
-/turf/open/floor/plating,
-/area/space)
-"fK" = (
-/obj/machinery/vending/coffee,
-/turf/open/floor/plasteel/bar,
-/area/space)
-"fS" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/open/floor/plasteel/bar,
-/area/space)
-"fT" = (
-/obj/machinery/recharge_station,
-/turf/open/floor/plasteel,
-/area/space)
-"gj" = (
-/obj/structure/closet/l3closet,
-/turf/open/floor/plasteel,
-/area/space)
-"go" = (
-/obj/machinery/vending/tool,
-/turf/open/floor/plasteel,
-/area/space)
-"hn" = (
-/turf/open/floor/plasteel/airless/solarpanel,
-/area/space)
-"hA" = (
-/obj/machinery/door/airlock{
-	name = "Unit 1"
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"iq" = (
-/obj/structure/closet/secure_closet/brig{
-	id = "Cell 2";
-	name = "Cell 2 Locker"
-	},
-/turf/open/floor/plasteel/black,
-/area/space)
-"iu" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/pointybush,
-/turf/open/floor/grass,
-/area/space)
-"iw" = (
-/obj/structure/table/reinforced,
-/obj/item/weapon/reagent_containers/food/drinks/shaker,
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"ix" = (
-/obj/machinery/door/airlock/medical{
-	name = "Medbay";
-	req_one_access_txt = "101"
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"iH" = (
-/obj/structure/plasticflaps,
-/obj/machinery/conveyor/auto{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/no_entry/delivery)
-"je" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/fernybush,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jU" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/open/floor/grass,
-/area/space)
-"jv" = (
-/obj/structure/mirror{
-	pixel_x = 28
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jV" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 6
 	},
-/obj/structure/sink{
-	dir = 4;
-	icon_state = "sink";
-	pixel_x = 11;
-	pixel_y = 0
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"jD" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"li" = (
+/obj/structure/table/wood,
+/obj/item/weapon/coin/iron,
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"lr" = (
+/obj/machinery/conveyor/auto,
+/turf/open/floor/plasteel/warning/side,
 /area/no_entry/delivery)
-"kr" = (
-/obj/machinery/sleeper{
-	dir = 4;
-	icon_state = "sleeper-open"
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"kK" = (
-/obj/structure/closet/secure_closet/brig{
-	id = "Cell 3";
-	name = "Cell 3 Locker"
-	},
-/turf/open/floor/plasteel/black,
-/area/space)
-"kX" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/genericbush,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/grass,
-/area/space)
 "lC" = (
 /turf/open/floor/engine,
 /area/no_entry{
 	has_gravity = 1;
 	name = "Space Station"
 	})
-"lK" = (
+"lD" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"lT" = (
+/obj/machinery/door/airlock/research{
+	name = "Xenobiology";
+	req_access_txt = "55";
+	req_one_access_txt = "0"
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ml" = (
+/obj/structure/table/glass,
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"mu" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"mx" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"mM" = (
+/turf/open/floor/plasteel/warning{
+	dir = 4
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ng" = (
+/turf/open/floor/plasteel/warnwhite/corner{
+	dir = 8
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"nl" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ns" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"nu" = (
+/obj/structure/rack,
+/obj/item/weapon/tank/internals/oxygen,
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"nx" = (
+/obj/machinery/power/solar{
+	id = "auxsolareast";
+	name = "Port Auxiliary Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"nA" = (
+/obj/structure/closet/secure_closet/brig{
+	id = "Cell 3";
+	name = "Cell 3 Locker"
+	},
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"nK" = (
+/obj/machinery/sleeper{
+	dir = 4;
+	icon_state = "sleeper-open"
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"on" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"or" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"oH" = (
+/obj/structure/closet/l3closet/scientist,
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"oU" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"pD" = (
+/obj/structure/sink{
+	dir = 8;
+	icon_state = "sink";
+	pixel_x = -12
+	},
+/obj/structure/mirror{
+	pixel_x = -28;
+	pixel_y = 0
+	},
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"qd" = (
+/turf/closed/indestructible/fakeglass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"qw" = (
+/turf/open/floor/plasteel/warnwhite/corner{
+	dir = 4
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"rb" = (
 /obj/machinery/conveyor/auto{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/warning/side,
 /area/no_entry/delivery)
-"mk" = (
-/turf/open/floor/plasteel/bar,
-/area/space)
-"mG" = (
-/turf/closed/indestructible/fakedoor,
-/area/space)
-"nH" = (
-/obj/structure/table/glass,
+"rm" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/five,
 /turf/open/floor/plasteel,
-/area/space)
-"nN" = (
-/obj/machinery/door/airlock/security{
-	id_tag = "outerbrig";
-	name = "Brig Desk";
-	req_access = null;
-	req_access_txt = "63"
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"rG" = (
+/turf/open/floor/plasteel/warnwhite/corner{
+	dir = 1
 	},
-/turf/open/floor/plasteel/darkred,
-/area/space)
-"oM" = (
-/obj/machinery/vending/cola,
-/turf/open/floor/plasteel/bar,
-/area/space)
-"pj" = (
-/obj/machinery/door/airlock/glass_engineering{
-	name = "Engineering";
-	req_one_access_txt = "10;11;24;56"
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"pZ" = (
-/obj/machinery/door/airlock/security{
-	id_tag = "outerbrig";
-	name = "Brig";
-	req_access = null;
-	req_access_txt = "63"
-	},
-/turf/open/floor/plasteel/darkred,
-/area/space)
-"rc" = (
-/obj/structure/window/reinforced/fulltile,
-/obj/structure/grille,
-/turf/open/floor/plasteel,
-/area/space)
-"ru" = (
-/obj/structure/plasticflaps,
-/obj/machinery/conveyor{
-	id = "StationSell";
-	tag = "StationSell"
-	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"rT" = (
+/obj/item/weapon/storage/wallet/random,
 /turf/open/floor/plating,
-/area/no_entry/delivery)
-"rM" = (
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"sH" = (
 /obj/machinery/gravity_generator/main/station,
 /turf/open/floor/plasteel,
-/area/space)
-"sb" = (
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"sN" = (
+/turf/open/floor/plasteel/warning{
+	dir = 1
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"sP" = (
+/turf/open/floor/plasteel/warning/corner,
+/area/no_entry/delivery)
+"tc" = (
+/obj/structure/rack,
+/obj/item/weapon/tank/internals/oxygen,
+/obj/item/weapon/tank/internals/oxygen,
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"td" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"tp" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"tw" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"tB" = (
+/turf/open/floor/plasteel/warnwhite{
+	dir = 8
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"tW" = (
+/obj/structure/table/wood,
+/obj/item/weapon/paper_bin,
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ug" = (
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"uA" = (
+/turf/closed/indestructible/fakedoor,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"uC" = (
+/obj/machinery/shower{
+	dir = 4;
+	layer = 5
+	},
+/obj/structure/curtain,
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"uD" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"uE" = (
+/obj/machinery/door/airlock/command{
+	name = "Station Meeting Room";
+	req_one_access_txt = "101"
+	},
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"uJ" = (
+/obj/machinery/door/airlock{
+	name = "Unit 2"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"uU" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"vt" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"vM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"vO" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"wL" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 1;
@@ -317,78 +805,17 @@
 	icon_state = "1-4"
 	},
 /turf/open/space,
-/area/space)
-"sP" = (
-/turf/open/floor/plasteel/warning/corner,
-/area/no_entry/delivery)
-"sU" = (
-/turf/open/floor/plating,
-/area/space)
-"ty" = (
-/obj/structure/table/wood,
-/obj/item/weapon/coin/iron,
-/turf/open/floor/wood,
-/area/space)
-"uo" = (
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"wU" = (
 /obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8";
-	tag = ""
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4";
-	tag = ""
-	},
-/turf/open/space,
-/area/space)
-"uL" = (
-/obj/item/weapon/caution,
-/turf/open/floor/plasteel,
-/area/space)
-"uQ" = (
-/obj/machinery/door/airlock{
-	name = "Unit 2"
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"vn" = (
-/obj/structure/closet/secure_closet/freezer,
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"vo" = (
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/space)
-"vy" = (
-/obj/structure/closet/secure_closet/brig{
-	id = "Cell 1";
-	name = "Cell 1 Locker"
-	},
-/turf/open/floor/plasteel/black,
-/area/space)
-"vT" = (
-/turf/open/floor/wood,
-/area/space)
-"wu" = (
-/obj/machinery/deepfryer,
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"wM" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/space)
+/turf/open/space/basic,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "wY" = (
 /turf/open/floor/plasteel/yellow/side{
 	dir = 4
@@ -403,36 +830,49 @@
 	has_gravity = 1;
 	name = "Space Station"
 	})
-"xx" = (
-/obj/structure/table/reinforced,
-/obj/machinery/microwave{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"xX" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/sunnybush,
-/turf/open/floor/grass,
-/area/space)
-"yg" = (
-/obj/machinery/door/window/eastright{
-	name = "Cell Door";
-	req_access_txt = "2"
-	},
-/turf/open/floor/plasteel/black,
-/area/space)
-"yl" = (
-/turf/open/floor/plasteel/darkblue,
-/area/space)
-"yD" = (
-/obj/machinery/light{
-	dir = 8
+"xo" = (
+/obj/structure/closet/secure_closet/medical3,
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"xp" = (
+/obj/item/weapon/paper/fluff/stations/centcom{
+	desc = "A paper written in scribbled black ink.";
+	info = "<BR>Due to the most recent mime break in, we've decided to cancel suplies to this location. Just set up the solars or something.<BR>Have a secure shift.<BR>";
+	name = "paper- 'engineering notice'"
 	},
 /turf/open/floor/plasteel,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"yc" = (
+/turf/open/floor/plasteel/warnwhite{
+	dir = 4
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ym" = (
+/obj/machinery/door/airlock/glass_command{
+	name = "Station Meeting Room";
+	req_one_access_txt = "19"
+	},
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"yA" = (
+/obj/structure/closet/secure_closet/freezer,
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "yF" = (
 /obj/machinery/conveyor/auto{
 	dir = 9;
@@ -440,25 +880,108 @@
 	},
 /turf/open/floor/plating,
 /area/no_entry/delivery)
-"zq" = (
-/obj/machinery/door/airlock{
-	name = "Unit B"
+"yO" = (
+/obj/machinery/door/airlock/security{
+	id_tag = "outerbrig";
+	name = "Brig";
+	req_access = null;
+	req_access_txt = "63"
+	},
+/turf/open/floor/plasteel/darkred,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"yP" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"zk" = (
+/obj/machinery/door/airlock/glass_engineering{
+	name = "Engineering";
+	req_one_access_txt = "10;11;24;56"
 	},
 /turf/open/floor/plasteel,
-/area/space)
-"zu" = (
-/obj/structure/table/reinforced,
-/obj/machinery/recharger,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"zU" = (
+/obj/structure/table/wood,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen/fountain/captain,
 /turf/open/floor/wood,
-/area/space)
-"Al" = (
-/turf/closed/wall/r_wall,
-/area/space)
-"AN" = (
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Aa" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Ay" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"AF" = (
 /obj/structure/table/glass,
-/obj/machinery/computer/med_data/laptop,
+/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,
+/turf/open/floor/plasteel/warnwhite{
+	dir = 1
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"AH" = (
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"AK" = (
+/obj/machinery/lapvend,
 /turf/open/floor/plasteel,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"AP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "BB" = (
 /obj/machinery/door/airlock/glass_external{
 	name = "External Access";
@@ -469,76 +992,123 @@
 	has_gravity = 1;
 	name = "Space Station"
 	})
-"BD" = (
+"Ch" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor/auto{
+	dir = 1
+	},
+/turf/open/floor/plasteel/warning/end{
+	dir = 1
+	},
+/area/no_entry/delivery)
+"Cr" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	crit_fail = 0;
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"CH" = (
+/obj/structure/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"CQ" = (
+/turf/open/floor/plasteel/warning,
+/area/no_entry/delivery)
+"De" = (
+/obj/machinery/shower{
+	dir = 8;
+	layer = 5
+	},
+/obj/structure/curtain,
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Dw" = (
+/obj/structure/table/wood,
+/obj/item/trash/plate,
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"DF" = (
+/obj/structure/closet/l3closet,
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"EF" = (
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"EJ" = (
+/obj/structure/closet/secure_closet/brig{
+	id = "Cell 2";
+	name = "Cell 2 Locker"
+	},
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"EK" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel/black,
-/area/space)
-"Ci" = (
-/obj/structure/closet/secure_closet/medical3,
-/turf/open/floor/plasteel,
-/area/space)
-"CI" = (
-/obj/machinery/conveyor{
-	id = "StationSell";
-	tag = "StationSell"
-	},
-/turf/open/floor/plating,
-/area/no_entry/delivery)
-"CN" = (
-/obj/machinery/conveyor/auto,
-/turf/open/floor/plating,
-/area/no_entry/delivery)
-"CP" = (
-/obj/structure/closet{
-	name = "Evidence Closet"
-	},
-/turf/open/floor/plasteel/black,
-/area/space)
-"CQ" = (
-/turf/open/floor/plasteel/warning,
-/area/no_entry/delivery)
-"CV" = (
-/obj/machinery/vending/boozeomat,
-/turf/open/floor/wood,
-/area/space)
-"DG" = (
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"ER" = (
 /obj/machinery/door/airlock{
-	name = "Unisex Restrooms";
-	req_access_txt = "0"
+	name = "Unit B"
 	},
-/turf/open/floor/plasteel,
-/area/space)
-"EN" = (
-/obj/machinery/door/airlock/command{
-	name = "Station Meeting Room";
-	req_one_access_txt = "101"
-	},
-/turf/open/floor/wood,
-/area/space)
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "Fa" = (
 /turf/open/floor/plasteel/warning{
 	dir = 8
 	},
 /area/no_entry/delivery)
-"Fg" = (
-/obj/machinery/shower{
-	dir = 4;
-	layer = 5
-	},
-/obj/structure/curtain,
-/turf/open/floor/plasteel,
-/area/space)
-"FC" = (
-/obj/structure/plasticflaps,
-/obj/machinery/conveyor/auto,
-/turf/open/floor/plating,
-/area/no_entry/delivery)
-"FH" = (
-/obj/machinery/suit_storage_unit/standard_unit,
-/turf/open/floor/plating,
-/area/space)
+"Fw" = (
+/mob/living/simple_animal/pet/dog/pug,
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "FK" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -550,37 +1120,84 @@
 	},
 /turf/open/floor/plating,
 /area/no_entry/delivery)
-"FS" = (
-/obj/structure/table/wood,
-/obj/item/weapon/pen/fountain,
+"FQ" = (
+/obj/structure/chair/comfy{
+	dir = 8
+	},
 /turf/open/floor/wood,
-/area/space)
-"FW" = (
-/obj/machinery/chem_dispenser/drinks,
-/obj/structure/table/reinforced,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"FU" = (
+/obj/machinery/vending/boozeomat{
+	req_access_txt = "25"
+	},
 /turf/open/floor/plasteel/cafeteria,
-/area/space)
-"Gb" = (
-/obj/machinery/vending/snack,
-/turf/open/floor/plasteel/bar,
-/area/space)
-"Gx" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/five,
-/turf/open/floor/plasteel,
-/area/space)
-"Hc" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plasteel,
-/area/space)
-"Hs" = (
-/obj/machinery/chem_dispenser/drinks/beer,
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Gg" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"GD" = (
+/obj/structure/chair{
+	dir = 2
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Hz" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	crit_fail = 0;
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "HP" = (
 /turf/open/floor/plasteel/darkblue,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"HV" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/turf/open/floor/plasteel/freezer,
 /area/no_entry{
 	has_gravity = 1;
 	name = "Space Station"
@@ -588,283 +1205,414 @@
 "HW" = (
 /turf/open/space/basic,
 /area/space)
-"In" = (
-/obj/structure/table/glass,
-/obj/item/weapon/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/weapon/pen,
+"Iu" = (
+/obj/structure/bed,
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"IA" = (
+/obj/machinery/vending/tool,
 /turf/open/floor/plasteel,
-/area/space)
-"It" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/stalkybush,
-/obj/structure/flora/ausbushes/sunnybush,
-/obj/structure/window/reinforced{
-	dir = 2;
-	pixel_x = 0
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/grass,
-/area/space)
-"Iw" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4";
-	tag = ""
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/open/space,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "IJ" = (
 /turf/open/floor/plasteel/warning/corner{
 	dir = 4
 	},
 /area/no_entry/delivery)
-"Jr" = (
-/obj/machinery/vending/medical{
-	pixel_x = -2
+"IU" = (
+/obj/item/weapon/caution,
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Jy" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"KC" = (
+/turf/open/floor/plasteel/warning/corner{
+	dir = 4
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"KE" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Restrooms";
+	req_access_txt = "0"
 	},
 /turf/open/floor/plasteel,
-/area/space)
-"JG" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Lj" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	id = "StationSell";
+	tag = "StationSell"
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+/turf/open/floor/plasteel/warning/end{
+	dir = 1
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/open/space,
-/area/space)
-"JV" = (
-/obj/structure/table/wood,
-/obj/item/device/flashlight/lamp/green,
-/turf/open/floor/wood,
-/area/space)
-"Kl" = (
-/obj/structure/chair{
-	dir = 4
-	},
+/area/no_entry/delivery)
+"Ls" = (
+/obj/machinery/vending/cola,
 /turf/open/floor/plasteel/bar,
-/area/space)
-"KF" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/plasteel/bar,
-/area/space)
-"KH" = (
-/obj/structure/chair/comfy{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/space)
-"KT" = (
-/turf/closed/indestructible/fakeglass,
-/area/space)
-"KW" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
-	},
-/turf/open/space,
-/area/space)
-"Lr" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/open/space,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "Lu" = (
 /turf/open/floor/plasteel,
 /area/no_entry{
 	has_gravity = 1;
 	name = "Space Station"
 	})
-"Lz" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/genericbush,
-/turf/open/floor/grass,
-/area/space)
+"LB" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "LH" = (
 /obj/effect/landmark/dock_spawn/station/internal{
 	dir = 8
 	},
 /turf/open/space,
 /area/space)
-"Nf" = (
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/bar,
-/area/space)
-"Nk" = (
-/obj/structure/table/wood,
-/obj/item/weapon/paper,
+"LU" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/wood,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Mi" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Mj" = (
+/turf/open/floor/plasteel/warning/corner{
+	dir = 8
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Mu" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/food/drinks/shaker,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/plasteel/cafeteria,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"MA" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"MJ" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"MM" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"MN" = (
+/obj/machinery/door/airlock{
+	name = "Custodial Closet";
+	req_access_txt = "26"
+	},
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"MZ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/item/weapon/restraints/handcuffs{
+	pixel_y = 3
+	},
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Nq" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "Nt" = (
 /turf/open/floor/plasteel/warning/corner{
 	dir = 1
 	},
 /area/no_entry/delivery)
-"NQ" = (
+"NO" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"NV" = (
+/obj/structure/chair/comfy,
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Oh" = (
 /obj/machinery/door/airlock/glass{
 	name = "Canteen"
 	},
 /turf/open/floor/plasteel/bar,
-/area/space)
-"NU" = (
-/obj/machinery/door/airlock{
-	name = "Canteen Service Area";
-	req_access_txt = "28"
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"Oc" = (
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Or" = (
+/obj/machinery/chem_dispenser/drinks,
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/eastright{
-	dir = 1;
-	name = "Brig Desk";
-	req_access_txt = "2"
-	},
-/turf/open/floor/plasteel/black,
-/area/space)
-"OL" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8";
-	tag = ""
-	},
-/turf/open/space,
-/area/space)
-"OM" = (
-/obj/machinery/vending/boozeomat{
-	req_access_txt = "25"
-	},
 /turf/open/floor/plasteel/cafeteria,
-/area/space)
-"Pi" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "Pw" = (
 /turf/open/floor/plasteel/loadingarea,
 /area/no_entry/delivery)
-"QE" = (
-/obj/item/weapon/paper/fluff/stations/centcom{
-	desc = "A paper written in scribbled black ink.";
-	info = "<BR>Due to the most recent mime break in, we've decided to cancel suplies to this location. Just set up the solars or something.<BR>Have a secure shift.<BR>";
-	name = "paper- 'engineering notice'"
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"QS" = (
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
-"Ro" = (
+"PA" = (
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"PF" = (
 /obj/machinery/light{
-	dir = 1;
-	icon_state = "tube1"
+	dir = 8
 	},
-/turf/open/floor/plasteel,
-/area/space)
-"Rq" = (
-/obj/structure/filingcabinet/security,
-/turf/open/floor/plasteel/black,
-/area/space)
-"Rv" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/open/floor/grass,
-/area/space)
-"Rw" = (
-/obj/machinery/vending/cigarette,
-/turf/open/floor/plasteel/bar,
-/area/space)
-"RN" = (
-/obj/structure/chair{
-	dir = 2
-	},
-/turf/open/floor/plasteel/bar,
-/area/space)
-"Sj" = (
-/obj/structure/bed,
-/turf/open/floor/plasteel/black,
-/area/space)
-"Sx" = (
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"PP" = (
 /obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/spray/cleaner,
-/obj/item/clothing/glasses/hud/health,
-/obj/machinery/light,
-/turf/open/floor/plasteel,
-/area/space)
+/obj/item/device/camera_film,
+/obj/item/device/camera,
+/turf/open/floor/plasteel/warnwhite{
+	dir = 1
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"PQ" = (
+/obj/structure/table/wood,
+/obj/item/device/flashlight/lamp/green,
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Qs" = (
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"QF" = (
+/obj/structure/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"QI" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"QM" = (
+/obj/machinery/door/airlock{
+	name = "Shower"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Sv" = (
+/obj/machinery/door/airlock{
+	name = "Unit 1"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"SC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"SE" = (
+/turf/open/floor/plasteel/warning/corner,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"SI" = (
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "SO" = (
 /obj/effect/landmark/dock_spawn/main{
 	dir = 8
 	},
 /turf/open/space,
 /area/space)
-"Ta" = (
-/obj/machinery/shower{
-	dir = 8;
-	layer = 5
+"Tg" = (
+/obj/structure/window/reinforced{
+	dir = 4
 	},
-/obj/structure/curtain,
-/turf/open/floor/plasteel,
-/area/space)
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Tw" = (
+/obj/structure/chair/office/dark,
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"TT" = (
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "Ue" = (
 /obj/machinery/door/airlock/glass{
 	name = "Shuttle Dock"
 	},
 /turf/open/floor/plasteel,
 /area/no_entry/delivery)
-"UN" = (
-/obj/structure/chair/comfy{
-	dir = 8
-	},
+"Us" = (
 /turf/open/floor/wood,
-/area/space)
-"US" = (
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"UL" = (
+/obj/machinery/shower{
+	dir = 8;
+	icon_state = "shower";
+	name = "emergency shower"
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"UW" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8";
-	tag = ""
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
 	},
 /obj/structure/cable{
 	d1 = 2;
@@ -872,25 +1620,158 @@
 	icon_state = "2-4";
 	tag = ""
 	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
 /turf/open/space,
-/area/space)
-"We" = (
-/obj/structure/table/wood,
-/obj/item/weapon/paper_bin,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"UX" = (
+/obj/machinery/computer,
 /turf/open/floor/wood,
-/area/space)
-"Wx" = (
-/obj/machinery/door/airlock/glass_external{
-	name = "External Access";
-	req_one_access_txt = "13;48"
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Vj" = (
+/obj/structure/filingcabinet/security,
+/turf/open/floor/plasteel/black,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Vp" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	crit_fail = 0;
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Vt" = (
+/obj/machinery/door/airlock/glass_medical{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "5"
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"VL" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"VM" = (
+/obj/structure/sink{
+	dir = 8;
+	icon_state = "sink";
+	pixel_x = -12
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Wd" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Wg" = (
+/turf/open/floor/plasteel/darkred,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Wm" = (
+/obj/structure/toilet{
+	pixel_y = 8
+	},
+/turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Wn" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	crit_fail = 0;
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "WF" = (
 /turf/open/floor/plasteel/warning/corner{
 	dir = 8
 	},
 /area/no_entry/delivery)
+"WQ" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Xr" = (
+/obj/machinery/vending/medical{
+	pixel_x = -2
+	},
+/turf/open/floor/plasteel/white,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "XJ" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -899,22 +1780,46 @@
 	},
 /turf/open/floor/plating,
 /area/no_entry/delivery)
-"XQ" = (
-/turf/open/floor/plasteel,
-/area/space)
-"XR" = (
-/obj/structure/rack,
-/obj/item/weapon/tank/internals/oxygen,
-/obj/item/weapon/tank/internals/oxygen,
-/obj/item/weapon/tank/internals/oxygen,
-/turf/open/floor/plating,
-/area/space)
-"Ye" = (
-/obj/machinery/shower{
-	dir = 8
+"XN" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/palebush,
+/obj/structure/window/reinforced{
+	dir = 2
 	},
-/turf/open/floor/plasteel,
-/area/space)
+/turf/open/floor/grass,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"XP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/turf/open/space/basic,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"Yx" = (
+/obj/item/weapon/mop,
+/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "Za" = (
 /turf/closed/wall/r_wall,
 /area/no_entry{
@@ -932,9 +1837,13 @@
 	dir = 1
 	},
 /area/no_entry/delivery)
-"ZH" = (
-/turf/open/floor/plasteel/darkred,
-/area/space)
+"ZB" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/bar,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "ZM" = (
 /obj/machinery/conveyor_switch{
 	id = "StationSell";
@@ -24183,17 +25092,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -24440,17 +25349,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Za
+Za
+MJ
+MJ
+MJ
+Za
+MJ
+MJ
+MJ
+Za
+Za
 aa
 aa
 aa
@@ -24697,17 +25606,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Za
+AH
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Za
 aa
 aa
 aa
@@ -24954,17 +25863,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Za
+Us
+Us
+UX
+CH
+PQ
+Us
+fr
+QF
+Us
+MJ
 aa
 aa
 aa
@@ -25205,23 +26114,23 @@ aa
 aa
 aa
 HW
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Us
+Us
+li
+fr
+zU
+Us
+fr
+QF
+Us
+MJ
 aa
 aa
 aa
@@ -25455,30 +26364,30 @@ bu
 bu
 bu
 bu
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Fg
-XQ
-yD
-XQ
-XQ
-Al
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+uC
+PA
+PF
+pD
+pD
+Za
+Us
+Us
+Us
+Us
+Us
+Us
+tW
+QF
+Us
+Za
 aa
 aa
 aa
@@ -25709,8 +26618,8 @@ av
 av
 av
 WF
-jD
-jD
+al
+al
 bu
 aa
 aa
@@ -25719,31 +26628,31 @@ aa
 aa
 aa
 HW
-Al
-Ta
-XQ
-XQ
-XQ
-XQ
-Al
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
+Za
+De
+PA
+PA
+PA
+PA
+Za
+Us
+Us
+Us
+Us
+Us
+Us
+fr
+QF
+Us
+Za
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -25966,8 +26875,8 @@ lC
 lC
 lC
 ao
-jD
-jD
+al
+al
 bu
 bu
 bu
@@ -25976,31 +26885,31 @@ bu
 bu
 aa
 HW
-Al
-Al
-Al
-uL
-XQ
-XQ
-Al
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Al
-vT
-vT
-vT
-vT
-vT
-vT
-vT
-vT
-vT
-Al
+Za
+Za
+Za
+IU
+PA
+PA
+Za
+Us
+Us
+fr
+fr
+fr
+fr
+PQ
+Us
+Us
+MJ
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -26225,39 +27134,39 @@ lC
 ao
 jD
 Zw
-iH
-lK
-lK
-lK
+Ch
+rb
+rb
+rb
 eW
 bu
 aa
 HW
-Al
-fT
-zq
-XQ
-XQ
-XQ
-Al
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Al
-vT
-vT
-vT
-ty
-KH
-JV
-vT
-vT
-vT
-Al
+Za
+oU
+ER
+PA
+PA
+PA
+Za
+Us
+Us
+FQ
+FQ
+FQ
+FQ
+Us
+Us
+Us
+MJ
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -26490,31 +27399,31 @@ bu
 bu
 aa
 HW
-Al
-Al
-Al
-XQ
-XQ
-XQ
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-vT
-vT
-vT
-Nk
-FS
-vo
-vT
-vT
-vT
-Al
+Za
+Za
+Za
+PA
+PA
+PA
+Za
+MZ
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+iG
+Za
+HW
+HW
+HW
+HW
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -26739,39 +27648,39 @@ xn
 ao
 cj
 Pw
-FC
-CN
-CN
-CN
+cF
+lr
+lr
+lr
 yF
 bu
 aa
 HW
-Al
-Ye
-er
-XQ
-XQ
-XQ
-Al
-Jr
-kr
-nH
-kr
-gj
-Ci
-Ci
-Al
-eQ
-vo
-vT
-vT
-vT
-vT
-vT
-vo
-dr
-Al
+Za
+HV
+QM
+PA
+PA
+PA
+Za
+Za
+LU
+ym
+ym
+LU
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -27004,31 +27913,31 @@ FK
 bu
 aa
 HW
-Al
-Al
-Al
-Ro
-XQ
-XQ
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
-eQ
-vo
-vT
-vT
-vT
-vT
-vT
-vo
-dr
-Al
+Za
+Za
+Za
+mx
+PA
+PA
+Za
+WQ
+Us
+Us
+Us
+Us
+lD
+Za
+VM
+rT
+Za
+nK
+hv
+nK
+Za
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -27253,39 +28162,39 @@ lC
 ao
 jD
 Zw
-ru
-CI
-CI
-CI
+Lj
+bN
+bN
+bN
 XJ
 bu
 aa
 HW
-Al
-aF
-uQ
-XQ
-XQ
-XQ
-Al
-wM
-XQ
-XQ
-XQ
-XQ
-XQ
-Sx
-Al
-vT
-JV
-vo
-We
-vo
-vo
-vo
-JV
-vT
-Al
+Za
+Wm
+uJ
+PA
+PA
+PA
+Za
+jp
+NV
+Us
+Us
+QF
+td
+Za
+Qs
+Qs
+Za
+EF
+EF
+EF
+Za
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -27516,33 +28425,33 @@ bu
 bu
 bu
 bu
-Al
+Za
 HW
-Al
-Al
-Al
-XQ
-XQ
-XQ
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-In
-Al
-vT
-vT
-UN
-UN
-UN
-UN
-UN
-vT
-vT
-Al
+Za
+Za
+Za
+PA
+PA
+PA
+Za
+MA
+NV
+Us
+Us
+QF
+Jy
+Za
+Qs
+Ay
+Za
+EF
+EF
+EF
+MJ
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -27768,38 +28677,38 @@ IJ
 wY
 wY
 bu
-iu
-Lz
-cv
-Rv
-xX
-Al
+aS
+aA
+uU
+VL
+vO
+Za
 HW
-Al
-aF
-hA
-XQ
-XQ
-jv
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-AN
-Al
-vT
-vT
-vT
-vT
-vT
-vT
-vT
-vT
-vT
-Al
+Za
+Wm
+Sv
+PA
+PA
+uD
+Za
+XN
+Us
+Us
+Us
+Us
+vt
+Za
+Qs
+Yx
+Za
+EF
+EF
+EF
+MJ
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -28025,38 +28934,38 @@ bu
 Ue
 Ue
 bu
-Al
-KT
-KT
-KT
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-DG
-Al
-Al
-Al
-Al
-ix
-ix
-Hc
-Hc
-Hc
-Al
-Al
-Al
-EN
-EN
-Al
-EN
-EN
-Al
-Al
-Al
+Za
+qd
+qd
+qd
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+KE
+Za
+Za
+Za
+Za
+uE
+uE
+Za
+Za
+Za
+MN
+Za
+Za
+EF
+EF
+DF
+MJ
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -28276,44 +29185,44 @@ Lu
 Lu
 Lu
 Lu
-XQ
-XQ
-XQ
-yl
-yl
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-yl
-XQ
-XQ
-XQ
-XQ
-yl
-yl
-XQ
-XQ
-XQ
-XQ
-Al
-vT
-vT
-vT
-vT
-vT
-vT
-CV
-Al
-aa
+Lu
+Lu
+Lu
+HP
+HP
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+HP
+Lu
+Lu
+Lu
+Lu
+HP
+HP
+Lu
+Lu
+Lu
+Lu
+MJ
+EF
+EF
+EF
+xo
+Za
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -28533,44 +29442,44 @@ HP
 HP
 HP
 HP
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-EN
-vT
-vT
-vT
-vT
-vT
-vT
-cG
-Al
-aa
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+Vt
+EF
+EF
+EF
+xo
+Za
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -28790,44 +29699,44 @@ HP
 HP
 HP
 HP
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-yl
-XQ
-Al
-vT
-vT
-je
-kX
-It
-vT
-zu
-Al
-aa
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+Lu
+MJ
+EF
+EF
+EF
+Xr
+Za
+HW
+HW
+HW
+HW
 aa
 aa
 aa
@@ -29042,49 +29951,49 @@ aa
 aa
 aa
 aa
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-yl
-yl
-XQ
-XQ
-yl
-yl
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-XQ
-yl
-yl
-XQ
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-aa
+Za
+Lu
+Lu
+Lu
+Lu
+Lu
+HP
+HP
+Lu
+Lu
+HP
+HP
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+Lu
+HP
+HP
+Lu
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
 aa
 aa
 aa
@@ -29304,44 +30213,44 @@ Za
 Za
 Za
 Za
-Al
-NQ
-NQ
-Al
-Al
-NQ
-NQ
-Al
-Al
-Al
-Al
-rc
-rc
-Al
-rc
-rc
-Al
-rc
-rc
-Al
-Al
-Al
-Al
-Al
-XQ
-yl
-yl
-yl
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
-aa
-aa
-aa
+Za
+Oh
+Oh
+Za
+Za
+Oh
+Oh
+Za
+Za
+Za
+Za
+Wd
+Wd
+Za
+Wd
+Wd
+Za
+Wd
+Wd
+Za
+Za
+Za
+Za
+Za
+Lu
+HP
+HP
+Lu
+Za
+Lu
+Lu
+Lu
+Lu
+Lu
+Za
+LB
+tc
+Za
 aa
 aa
 aa
@@ -29560,47 +30469,47 @@ aa
 aa
 aa
 aa
-Al
-Rw
-mk
-mk
-mk
-mk
-mk
-mk
-KF
-Al
+Za
+gQ
+TT
+TT
+TT
+TT
+TT
+TT
+ZB
+Za
 HW
-Al
+Za
 aa
 aa
-Al
+Za
 aa
 aa
-Al
+Za
 aa
 aa
-Al
-Rq
-ff
-ff
-Al
-XQ
-yl
-yl
-yl
-pj
-XQ
-XQ
-QE
-XQ
-XQ
-Al
-aa
-aa
-aa
-aa
-aa
+Za
+Vj
+gY
+gY
+Za
+Lu
+HP
+HP
+HP
+zk
+Lu
+Lu
+xp
+Lu
+Lu
+aU
+Qs
+Qs
+aU
+Mi
+Mi
 aa
 aa
 aa
@@ -29817,47 +30726,47 @@ aa
 aa
 aa
 aa
-Al
-Gb
-mk
-mk
-Kl
-Kl
-mk
-mk
-mk
-Al
-Al
-Al
-rc
-rc
-Al
-rc
-rc
-Al
-rc
-rc
-Al
-ff
-ZH
-ff
-em
-XQ
-yl
-yl
-XQ
-pj
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+ge
+TT
+TT
+yP
+yP
+TT
+TT
+TT
+Za
+HW
+Za
+Wd
+Wd
+Za
+Wd
+Wd
+Za
+Wd
+Wd
+Za
+gY
+Wg
+gY
+cI
+Lu
+HP
+HP
+HP
+zk
+Lu
+Lu
+Lu
+Lu
+Lu
+Za
+LB
+nu
+Za
 aa
-aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -30074,47 +30983,47 @@ aa
 aa
 aa
 aa
-Al
-mk
-mk
-mk
-Nf
-Nf
-mk
-RN
-Nf
-Al
+Za
+TT
+TT
+TT
+jL
+jL
+TT
+hJ
+jL
+Za
 HW
-Al
-ff
-kK
-Al
-ff
-iq
-Al
-ff
-vy
-Al
-ff
-ZH
-eS
-Oc
-XQ
-yl
-yl
-XQ
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+gY
+nA
+Za
+gY
+EJ
+Za
+gY
+gX
+Za
+gY
+Wg
+Tw
+du
+Lu
+HP
+HP
+Lu
+Za
+Lu
+Lu
+Lu
+Lu
+Lu
+Za
+Za
+Za
+Za
 aa
-aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -30331,47 +31240,47 @@ aa
 aa
 aa
 aa
-Al
-RN
-mk
-mk
-fS
-fS
-mk
-RN
-Nf
-Al
+Za
+hJ
+TT
+TT
+or
+or
+TT
+hJ
+jL
+Za
 HW
-Al
-BD
-ff
-Al
-BD
-ff
-Al
-BD
-ff
-Al
-ff
-ZH
-ff
-em
-XQ
-yl
-yl
-XQ
-Al
-Gx
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+EK
+gY
+Za
+EK
+gY
+Za
+EK
+gY
+Za
+gY
+Wg
+gY
+cI
+Lu
+HP
+HP
+Lu
+Za
+rm
+Lu
+Lu
+Lu
+Lu
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -30588,47 +31497,47 @@ aa
 aa
 aa
 aa
-Al
-Nf
-mk
-mk
-mk
-mk
-mk
-RN
-Nf
-Al
+Za
+jL
+TT
+TT
+TT
+TT
+TT
+hJ
+jL
+Za
 HW
-Al
-ff
-Sj
-Al
-ff
-Sj
-Al
-ff
-Sj
-Al
-CP
-ZH
-ff
-Al
-XQ
-yl
-yl
-XQ
-Al
-go
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+gY
+Iu
+Za
+gY
+Iu
+Za
+gY
+Iu
+Za
+bW
+Wg
+gY
+Za
+Lu
+HP
+HP
+Lu
+Za
+IA
+Lu
+SE
+mM
+Mj
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -30845,47 +31754,47 @@ aa
 aa
 aa
 aa
-Al
-RN
-mk
-mk
-Kl
-Kl
-mk
-RN
-Nf
-Al
+Za
+hJ
+TT
+TT
+yP
+yP
+TT
+hJ
+jL
+Za
 aa
-Al
-yg
-Al
-Al
-yg
-Al
-Al
-yg
-Al
-Al
-Al
-nN
-Al
-Al
-XQ
-yl
-yl
-XQ
-Al
-Al
-Al
-Al
-mG
-Al
-Al
+Za
+bz
+Za
+Za
+bz
+Za
+Za
+bz
+Za
+Za
+Za
+hj
+Za
+Za
+Lu
+HP
+HP
+Lu
+Za
+Za
+Za
+Za
+uA
+Za
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -31102,47 +32011,47 @@ aa
 aa
 aa
 aa
-Al
-mk
-mk
-mk
-Nf
-Nf
-mk
-RN
-Nf
-Al
+Za
+TT
+TT
+TT
+jL
+Dw
+TT
+hJ
+jL
+Za
 aa
-Al
-ZH
-ff
-ff
-ZH
-ff
-ff
-ZH
-ff
-Al
-ff
-ZH
-ff
-Al
-XQ
-yl
-yl
-XQ
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+Wg
+gY
+gY
+Wg
+gY
+gY
+Wg
+gY
+Za
+gY
+Wg
+gY
+Za
+Lu
+HP
+HP
+Lu
+Za
+Mj
+Lu
+Lu
+Lu
+Lu
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -31359,47 +32268,47 @@ aa
 aa
 aa
 aa
-Al
-oM
-mk
-mk
-fS
-fS
-mk
-mk
-mk
-Al
+Za
+Ls
+TT
+TT
+or
+or
+TT
+TT
+TT
+Za
 aa
-Al
-ZH
-ff
-ff
-ZH
-ff
-ff
-ZH
-ff
-Al
-ff
-ZH
-ff
-Al
-XQ
-yl
-yl
-XQ
-KT
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+Wg
+gY
+gY
+Wg
+gY
+gY
+Wg
+gY
+Za
+gY
+Wg
+gY
+Za
+Lu
+HP
+HP
+Lu
+qd
+sN
+Lu
+Lu
+Lu
+Lu
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -31616,47 +32525,47 @@ aa
 aa
 aa
 aa
-Al
-fK
-mk
-mk
-mk
-mk
-mk
-mk
-mk
-Al
+Za
+jg
+TT
+TT
+TT
+TT
+TT
+TT
+TT
+Za
 aa
-Al
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-pZ
-ZH
-ZH
-ZH
-pZ
-yl
-yl
-yl
-XQ
-KT
-XQ
-XQ
-rM
-XQ
-XQ
-Al
+Za
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+yO
+Wg
+Wg
+Wg
+yO
+HP
+HP
+HP
+Lu
+qd
+sN
+Lu
+sH
+Lu
+Lu
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -31873,47 +32782,47 @@ aa
 aa
 aa
 aa
-Al
-Al
-dc
-dc
-Al
-Al
-dc
-dc
-NU
-Al
+Za
+Za
+jz
+jz
+Za
+Za
+jz
+jz
+di
+Za
 aa
-Al
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-pZ
-ZH
-ZH
-ZH
-pZ
-yl
-yl
-yl
-XQ
-KT
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+yO
+Wg
+Wg
+Wg
+yO
+HP
+HP
+HP
+Lu
+qd
+sN
+Lu
+Lu
+Lu
+Lu
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -32130,47 +33039,47 @@ aa
 aa
 aa
 aa
-Al
-Hs
-QS
-QS
-QS
-QS
-QS
-QS
-QS
-Al
+Za
+gO
+ug
+ug
+ug
+ug
+ug
+ug
+ug
+Za
 aa
-Al
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-ff
-Al
-ff
-ff
-ff
-Al
-XQ
-XQ
-XQ
-XQ
-Al
-XQ
-XQ
-XQ
-XQ
-XQ
-Al
+Za
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+Za
+gY
+gY
+gY
+Za
+Lu
+HP
+HP
+Lu
+Za
+KC
+Lu
+Lu
+Lu
+Lu
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -32387,47 +33296,47 @@ aa
 aa
 aa
 aa
-Al
-FW
-QS
-QS
-QS
-QS
-QS
-QS
-QS
-Al
+Za
+Or
+ug
+ug
+ug
+ug
+ug
+ug
+ug
+Za
 aa
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-fC
-Al
-Al
-Al
-Al
-Al
-mG
-Al
-Al
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Lu
+HP
+HP
+Lu
+Za
+Za
+Za
+Za
+uA
+Za
+Za
+aa
+Za
 aa
 aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -32644,16 +33553,16 @@ aa
 aa
 aa
 aa
-Al
-OM
-QS
-iw
-dR
-wu
-xx
-dc
-vn
-Al
+Za
+FU
+ug
+Mu
+it
+on
+jV
+jz
+yA
+Za
 aa
 aa
 aa
@@ -32661,7 +33570,6 @@ aa
 aa
 aa
 aa
-fv
 aa
 aa
 aa
@@ -32669,22 +33577,23 @@ aa
 aa
 aa
 aa
-Al
-XR
-sU
-sU
-Al
-aa
-aa
-aa
-bQ
-aa
+Za
+Lu
+HP
+HP
+Lu
+uA
 aa
 aa
 aa
 aa
 aa
+HW
 aa
+Za
+aa
+aa
+Mi
 aa
 aa
 aa
@@ -32901,47 +33810,47 @@ aa
 aa
 aa
 aa
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-Al
-fv
+Za
+Za
+MJ
+MJ
+Za
+Za
+MJ
+MJ
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Za
+Lu
+HP
+HP
+Lu
+Za
+Za
+Za
+Za
+uA
+Za
+Za
+Za
+Za
 aa
 aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-Al
-FH
-sU
-FH
-Al
-aa
-aa
-aa
-bQ
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Mi
 aa
 aa
 aa
@@ -33161,37 +34070,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-Al
-Al
-Wx
-Al
-Al
-aa
-aa
-aa
-bQ
 aa
 aa
 aa
@@ -33199,6 +34077,37 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+Za
+ml
+ml
+EF
+EF
+EF
+EF
+cl
+oH
+cS
+Za
+Lu
+HP
+HP
+Lu
+Za
+aa
+aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+aa
+Mi
 aa
 aa
 aa
@@ -33418,37 +34327,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-sU
-aa
-aa
-aa
-aa
-aa
-bQ
 aa
 aa
 aa
@@ -33456,6 +34334,37 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+Za
+ml
+EF
+EF
+MM
+MM
+MM
+EF
+EF
+EF
+lT
+HP
+HP
+HP
+Lu
+Za
+aa
+aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+aa
+Mi
 aa
 aa
 aa
@@ -33675,37 +34584,6 @@ aa
 aa
 aa
 aa
-fv
-hn
-hn
-hn
-hn
-hn
-hn
-fv
-hn
-hn
-hn
-hn
-hn
-hn
-fv
-hn
-hn
-hn
-hn
-hn
-hn
-fv
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-bQ
 aa
 aa
 aa
@@ -33713,6 +34591,37 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+Za
+EF
+EF
+bM
+yc
+yc
+yc
+ng
+EF
+EF
+lT
+HP
+HP
+HP
+Lu
+Za
+aa
+aa
+aa
+Aa
+vM
+vM
+mu
+Mi
+Mi
+Mi
+Mi
 aa
 aa
 aa
@@ -33932,40 +34841,40 @@ aa
 aa
 aa
 aa
-fv
-US
-uo
-uo
-uo
-uo
-uo
-KW
-uo
-uo
-uo
-uo
-uo
-uo
-Iw
-JG
-JG
-JG
-JG
-JG
-JG
-KW
-KW
-KW
-KW
-KW
-KW
-KW
-KW
-KW
-Lr
 aa
 aa
 aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+MJ
+EF
+GD
+jb
+ns
+jU
+bH
+ja
+NO
+EF
+Za
+AK
+Lu
+Lu
+Lu
+Za
+aa
+aa
+aa
+aa
+aa
+aa
+fe
 aa
 aa
 aa
@@ -34189,28 +35098,6 @@ aa
 aa
 aa
 aa
-fv
-hn
-hn
-hn
-hn
-hn
-hn
-fv
-hn
-hn
-hn
-hn
-hn
-hn
-bQ
-hn
-hn
-hn
-hn
-hn
-hn
-fv
 aa
 aa
 aa
@@ -34222,7 +35109,29 @@ aa
 aa
 aa
 aa
+MJ
+EF
+GD
+jb
+tw
+Fw
+hK
+AF
+NO
+EF
+Za
+Za
+MJ
+MJ
+Za
+Za
 aa
+aa
+aa
+aa
+aa
+aa
+fe
 aa
 aa
 aa
@@ -34446,28 +35355,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-bQ
-aa
-aa
-aa
-aa
-aa
-aa
-fv
 aa
 aa
 aa
@@ -34479,6 +35366,17 @@ aa
 aa
 aa
 aa
+MJ
+EF
+GD
+jb
+Tg
+nl
+hx
+PP
+NO
+EF
+Za
 aa
 aa
 aa
@@ -34489,6 +35387,17 @@ aa
 aa
 aa
 aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+aa
+nx
+Nq
+nx
 aa
 aa
 aa
@@ -34703,28 +35612,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-bQ
-aa
-aa
-aa
-aa
-aa
-aa
-fv
 aa
 aa
 aa
@@ -34736,6 +35623,17 @@ aa
 aa
 aa
 aa
+Za
+EF
+EF
+rG
+tB
+tB
+tB
+qw
+EF
+EF
+Za
 aa
 aa
 aa
@@ -34746,6 +35644,17 @@ aa
 aa
 aa
 aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+aa
+nx
+Wn
+nx
 aa
 aa
 aa
@@ -34960,28 +35869,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-hn
-hn
-hn
-hn
-hn
-hn
-bQ
-hn
-hn
-hn
-hn
-hn
-hn
-fv
 aa
 aa
 aa
@@ -34993,6 +35880,17 @@ aa
 aa
 aa
 aa
+Za
+ml
+EF
+EF
+tp
+tp
+tp
+EF
+EF
+ml
+Za
 aa
 aa
 aa
@@ -35003,6 +35901,17 @@ aa
 aa
 aa
 aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+aa
+nx
+Wn
+nx
 aa
 aa
 aa
@@ -35217,28 +36126,6 @@ aa
 aa
 aa
 aa
-fv
-fv
-fv
-fv
-fv
-fv
-fv
-fv
-US
-uo
-uo
-uo
-uo
-uo
-cd
-JG
-JG
-JG
-JG
-JG
-sb
-fv
 aa
 aa
 aa
@@ -35250,6 +36137,17 @@ aa
 aa
 aa
 aa
+Za
+ml
+ml
+EF
+EF
+EF
+EF
+UL
+ml
+ml
+Za
 aa
 aa
 aa
@@ -35260,6 +36158,17 @@ aa
 aa
 aa
 aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+aa
+nx
+Wn
+nx
 aa
 aa
 aa
@@ -35474,28 +36383,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-hn
-hn
-hn
-hn
-hn
-hn
-bQ
-hn
-hn
-hn
-hn
-hn
-hn
-fv
 aa
 aa
 aa
@@ -35507,16 +36394,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Za
+Za
+Za
+Za
+MJ
+MJ
+MJ
+Za
+Za
+Za
+Za
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+nx
+nx
+nx
+nx
+fe
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+Wn
+nx
 aa
 aa
 aa
@@ -35731,28 +36640,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-bQ
-aa
-aa
-aa
-aa
-aa
-aa
-fv
 aa
 aa
 aa
@@ -35773,7 +36660,29 @@ aa
 aa
 aa
 aa
-aa
+Mi
+Mi
+AP
+UW
+UW
+UW
+UW
+QI
+UW
+UW
+UW
+UW
+UW
+Vp
+SC
+SC
+SC
+SC
+SC
+QI
+QI
+wL
+Mi
 aa
 aa
 aa
@@ -35988,28 +36897,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-bQ
-aa
-aa
-aa
-aa
-aa
-aa
-fv
 aa
 aa
 aa
@@ -36031,6 +36918,28 @@ aa
 aa
 aa
 aa
+Mi
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+nx
+nx
+nx
+nx
+fe
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+Hz
+nx
 aa
 aa
 aa
@@ -36245,28 +37154,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-HW
-HW
-HW
-HW
-HW
-aa
-bQ
-hn
-hn
-hn
-hn
-hn
-hn
-fv
 aa
 aa
 aa
@@ -36288,6 +37175,28 @@ aa
 aa
 aa
 aa
+Mi
+aa
+aa
+aa
+aa
+aa
+Mi
+aa
+aa
+aa
+aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+Mi
+nx
+Hz
+nx
 aa
 aa
 aa
@@ -36502,28 +37411,6 @@ aa
 aa
 aa
 aa
-fv
-fv
-fv
-fv
-fv
-fv
-fv
-fv
-Pi
-Pi
-Pi
-Pi
-Pi
-fv
-OL
-JG
-JG
-JG
-JG
-JG
-sb
-fv
 aa
 aa
 aa
@@ -36545,6 +37432,28 @@ aa
 aa
 aa
 aa
+Mi
+aa
+aa
+aa
+aa
+aa
+Mi
+aa
+aa
+aa
+aa
+aa
+fe
+aa
+aa
+aa
+aa
+aa
+Mi
+nx
+Hz
+nx
 aa
 aa
 aa
@@ -36759,28 +37668,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-HW
-HW
-HW
-HW
-HW
-aa
-aa
-hn
-hn
-hn
-hn
-hn
-hn
-fv
 aa
 aa
 aa
@@ -36802,6 +37689,28 @@ aa
 aa
 aa
 aa
+Mi
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+nx
+nx
+nx
+nx
+fe
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+Hz
+nx
 aa
 aa
 aa
@@ -37016,28 +37925,6 @@ aa
 aa
 aa
 aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-HW
-HW
-HW
-HW
-HW
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-fv
 aa
 aa
 aa
@@ -37059,6 +37946,28 @@ aa
 aa
 aa
 aa
+Mi
+AP
+UW
+UW
+UW
+UW
+QI
+UW
+UW
+UW
+UW
+UW
+Cr
+SC
+SC
+SC
+SC
+fd
+Mi
+nx
+Gg
+nx
 aa
 aa
 aa
@@ -37273,49 +38182,49 @@ aa
 aa
 aa
 aa
-fv
 aa
 aa
 aa
 aa
 aa
 aa
-fv
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Mi
+nx
+nx
+nx
+nx
+nx
+Mi
+SI
+SI
+SI
+SI
+SI
+fe
+nx
+nx
+nx
+nx
+nx
+Mi
 HW
 HW
 HW
-HW
-HW
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-fv
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -37551,28 +38460,28 @@ aa
 aa
 aa
 aa
+Mi
 aa
 aa
 aa
 aa
 aa
+Mi
 aa
 aa
 aa
 aa
 aa
+fe
 aa
 aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Mi
+nx
+Nq
+nx
 aa
 aa
 aa
@@ -37808,28 +38717,28 @@ aa
 aa
 aa
 aa
+Mi
 aa
 aa
 aa
 aa
 aa
+Mi
 aa
 aa
 aa
 aa
 aa
+fe
 aa
 aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Mi
+nx
+Wn
+nx
 aa
 aa
 aa
@@ -38065,28 +38974,28 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Mi
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+nx
+nx
+nx
+nx
+fe
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+Wn
+nx
 aa
 aa
 aa
@@ -38321,29 +39230,29 @@ HW
 HW
 HW
 HW
-HW
-HW
-HW
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+wU
+wU
+XP
+UW
+UW
+UW
+UW
+QI
+UW
+UW
+UW
+UW
+UW
+jO
+SC
+SC
+SC
+SC
+SC
+QI
+QI
+wL
+Mi
 aa
 aa
 aa
@@ -38579,28 +39488,28 @@ HW
 HW
 HW
 HW
-HW
-HW
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+wU
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+nx
+nx
+nx
+nx
+Mi
+nx
+Hz
+nx
 aa
 aa
 aa
@@ -38855,9 +39764,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+nx
+Hz
+nx
 aa
 aa
 aa
@@ -39112,9 +40021,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+nx
+Gg
+nx
 aa
 aa
 aa
