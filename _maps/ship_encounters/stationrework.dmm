@@ -10,6 +10,14 @@
 	dir = 1
 	},
 /area/no_entry/delivery)
+"ar" = (
+/turf/open/floor/plasteel/warning/corner{
+	dir = 1
+	},
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "av" = (
 /turf/open/floor/plasteel/warning{
 	dir = 4
@@ -371,6 +379,14 @@
 	icon_state = "1-8"
 	},
 /turf/open/space,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"jR" = (
+/turf/open/floor/plasteel/warning{
+	dir = 8
+	},
 /area/no_entry{
 	has_gravity = 1;
 	name = "Space Station"
@@ -1434,6 +1450,17 @@
 	has_gravity = 1;
 	name = "Space Station"
 	})
+"OD" = (
+/obj/machinery/door/airlock/glass_external{
+	name = "External Access";
+	req_one_access_txt = "0" as text
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
 "Pw" = (
 /turf/open/floor/plasteel/loadingarea,
 /area/no_entry/delivery)
@@ -1448,6 +1475,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
+/area/no_entry{
+	has_gravity = 1;
+	name = "Space Station"
+	})
+"PI" = (
+/obj/machinery/door/airlock/glass_external{
+	name = "External Access";
+	req_one_access_txt = "13;48"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
 /area/no_entry{
 	has_gravity = 1;
 	name = "Space Station"
@@ -29433,11 +29471,11 @@ aa
 aa
 aa
 LH
+OD
+Lu
+Lu
+Lu
 BB
-Lu
-Lu
-Lu
-Lu
 HP
 HP
 HP
@@ -30507,7 +30545,7 @@ Lu
 aU
 Qs
 Qs
-aU
+PI
 Mi
 Mi
 aa
@@ -32043,9 +32081,9 @@ Lu
 Za
 Mj
 Lu
-Lu
-Lu
-Lu
+ar
+jR
+KC
 Za
 aa
 Za
